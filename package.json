@@ -1,0 +1,35 @@
+{
+  "name": "dsh-diag",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness diagnostics: profiles, plugins, credentials and engine compatibility. Read-only, zero-dependency. Unofficial (command: dshcc).",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "dshcc": "bin/dshcc.js",
+    "dsh-diag": "bin/dshcc.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dshcc",
+    "cli",
+    "diagnostics",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pscly/dsh-diag.git"
+  },
+  "homepage": "https://github.com/pscly/dsh-diag",
+  "publishConfig": {
+    "access": "public"
+  }
+}
